@@ -1,6 +1,6 @@
 /**
  * Challenge: Create a new object type
- * 
+ *
  * - Create a new object type "Book" using a class or an object constructor function.
  * - Add at least 5 book objects.
  */
@@ -23,27 +23,25 @@ console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
 console.log("Days since aquired:", everydayPack.backpackAge());
 
-
-
 // Book Objects
 
 //  Book Param Order: title, author, genre, checkedOut
 
-const bookOne = new Book (
+const bookOne = new Book(
   "The Hitchhiker's Guide to the Galaxy",
   "Douglas Adams",
   "Science Fiction",
   true
 );
 
-const bookTwo = new Book (
+const bookTwo = new Book(
   "Cackle",
   "Rachel Harrison",
   "Supernatural Fiction",
   false
 );
 
-const bookThree = new Book (
+const bookThree = new Book(
   "Gossie and Gertie",
   "Olivier Dunrea",
   "Childrens Fiction",
