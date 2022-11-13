@@ -23,4 +23,25 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  newBackpackName: function (newName) {
+    this.name = newName;
+    return this.name;
+  },
+  availableSpace: function (litersFilled) {
+    this.volume = this.volume - litersFilled;
+    return this.volume;
+  },
+  colorChange: function (newColor) {
+    this.color = newColor;
+    return this.color;
+  },
+  availablePockets: function (numPocketsUsed) {
+    this.pocketNum = this.pocketNum - numPocketsUsed;
+    return this.pocketNum;
+  },
 };
+
+console.log(backpack.newBackpackName("Hiking Backpack"));
+console.log("liters remaining: ", backpack.availableSpace(5));
+console.log(backpack.colorChange("green"));
+console.log("pockets remaining: ", backpack.availablePockets(10));
