@@ -15,6 +15,10 @@
 }
 console.log(chair);
 console.log(chair.wheels);
+
+
+
+
 const desk = {
   color: "brown",
   shape: 'L',
