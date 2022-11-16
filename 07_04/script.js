@@ -41,3 +41,11 @@ console.log("Found Item: ", foundItem);
 let remove = "flowers";
 deskItems.splice(deskItems.indexOf(remove), 1);
 console.log(`Item: "${remove}" removed:`, deskItems);
+
+
+var numbers=[1, 2, 3, 4, 5];
+numbers.push(6);
+numbers.unshift(7);
+numbers.pop();
+numbers.shift();
+console.log(numbers);
