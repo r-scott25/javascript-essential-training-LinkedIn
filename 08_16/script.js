@@ -28,7 +28,7 @@ backpackArticle.innerHTML = `
 <figure class="backpack_image">
 <img src=${backpack.image} alt="" loading="lazy" />
 </figure>
-<h1 class="backpack_name">${backpack.name}></h1>
+<h1 class="backpack_name">${backpack.name}</h1>
 <ul class="backpack_features">
 <li class="feature backpack_volume">Volume:<span> ${backpack.volume}l</span></li>
 <li class="feature backpack_color">Color:<span> ${backpack.color}</span></li>
