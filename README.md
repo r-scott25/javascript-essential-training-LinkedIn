@@ -1,35 +1,70 @@
-# JavaScript Essential Training
-This is the repository for the LinkedIn Learning course JavaScript Essential Training. The full course is available from [LinkedIn Learning][lil-course-url].
+# Getting Started with Create React App
 
-![JavaScript Essential Training][lil-thumbnail-url] 
-JavaScript is a scripting language of the web. As the web evolves from a static to a dynamic environment, technology focus is shifting from static markup and styling—frequently handled by content management systems or automated scripts—to dynamic interfaces and advanced interaction. Once seen as optional, JavaScript is now becoming an integral part of the web, infusing every layer with its script.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Through practical examples and mini-projects, this course helps you build your understanding of JavaScript piece by piece, from core principles like variables, data types, conditionals, and functions through advanced topics including loops, and DOM scripting. Along the way, instructor Morten Rand-Hendriksen provides challenges that allow you to put your new skills to the test.
+## Available Scripts
 
-## Instructions
+In the project directory, you can run:
 
-This repository does not have any branches. Download the entire repository and you get the exercise files in their final state.
+### `npm start`
 
-Each folder corresponds with a movie with an exercise file. The naming convention is `CHAPTER#_MOVIE#`. As an example, the folder named `02_03` corresponds to the second chapter and the third video in that chapter.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Some movies will have a beginning and an end state. In the exercise files, the end-state for a movie is marked with an `e` for "end" as in `02_03e`. This folder contains the code as it is at the end of the movie.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Installing
+### `npm test`
 
-1. To use these exercise files, you must have the following installed:
-   - A code editor ([VS Code](https://code.visualstudio.com/) is recommended)
-   - [Node.js](https://nodejs.org/en/)
-   - [Prettier code formatter extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-   - [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-2. From the root folder, open the terminal and enter the command `nmp install` to install dependencies.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Instructor
+### `npm run build`
 
-**Morten Rand-Hendriksen**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-_Web Designer and Developer_
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/morten-rand-hendriksen?u=104).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[lil-course-url]: https://www.linkedin.com/learning/javascript-essential-training
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2832077/2832077-1610728160487-16x9.jpg
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
